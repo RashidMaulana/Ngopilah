@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" href="css/marketplacestyle.css" type="text/css"/>
+	<title>Marketplace</title>
+</head>
+<body>
+	
+    <nav id="topbar">
+	      <ul class="main-list">
+          <li class="main-list-item"><a href="tempaterkenal.php">Home</a></li>
+          <li class="main-list-item"><a href="marketplace.html">Marketplace</a></li>
+          <li class="main-list-item"><a href="profile.php">Profil</a></li>
+          <li id="cart" class="main-list-item"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  		  <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+		  </svg><span id="idkatr" class="badge badge-pill badge-danger notify">0</span></li>
+        </ul>
+    </nav>
+	<section style="margin-top: 50px;" class="section-content padding-y">
+	<div class="container">
+
+	<div class="row">
+	<aside class="col-md-3">
+		
+<div class="card">
+	<article class="filter-group">
+		<header class="card-header">
+			<a href="#">
+				<h6 class="title">Tipe Produk</h6>
+			</a>
+		</header>
+		<div class="filter-content collapse show" id="collapse_1">
+			<div class="card-body">
+				<form class="pb-3">
+				<div class="input-group">
+				  <input type="text" class="form-control" placeholder="Search">
+				  <div class="input-group-append">
+				    <button class="btn btn-outline-secondary" type="button">Cari</button>
+				  </div>
+				</div>
+				</form>
+				
+				<ul class="list-menu">
+				<li><a href="#">Machiato</a></li>
+				<li><a href="#">Capuccino</a></li>
+				<li><a href="#">Americano</a></li>
+				<li><a href="#">Red Eye</a></li>
+				<li><a href="#">Latte</a></li>
+				<li><a href="#">Espresso</a></li>
+				<li><a href="#">Moccachino</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</article>
+	<article class="filter-group">
+		<header class="card-header">
+			<a href="#" class="">
+				<h6 class="title">Daftar Toko</h6>
+			</a>
+		</header>
+		<div class="filter-content collapse show" id="collapse_2">
+			<div class="card-body">
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label">Toko Kopi A
+				  	<b class="badge badge-pill badge-light float-right">120</b>  </div>
+				</label>
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label">Toko Kopi B
+				  	<b class="badge badge-pill badge-light float-right">15</b>  </div>
+				</label>
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label">Toko Kopi C
+				  	<b class="badge badge-pill badge-light float-right">35</b> </div>
+				</label>
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" checked="" class="custom-control-input">
+				  <div class="custom-control-label">Toko Kopi D 
+				  	<b class="badge badge-pill badge-light float-right">89</b> </div>
+				</label>
+				<label class="custom-control custom-checkbox">
+				  <input type="checkbox" class="custom-control-input">
+				  <div class="custom-control-label">Toko Kopi E
+				  	<b class="badge badge-pill badge-light float-right">30</b>  </div>
+				</label>
+	</div>
+		</div>
+	</article>
+</div>
+
+	</aside>
+	<main class="col-md-9">
+
+<div class="row">
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/americano.jpeg">
+			</div>
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Americano</a>
+					<div class="price-wrap mt-2">
+						<span class="price">27000</span>
+						<del class="price-old">35000</del>
+					</div>
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/capucino.jpg">
+			</div>
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Cappuccino</a>
+					<div class="price-wrap mt-2">
+						<span class="price">23000</span>
+					</div>
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>	
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/kopiespresso.jpg">
+			</div>
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Espresso</a>
+					<div class="price-wrap mt-2">
+						<span class="price">25000</span>
+					</div>
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/Latte.jpg">
+			</div>
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Latte</a>
+					<div class="price-wrap mt-2">
+						<span class="price">25000</span>
+					</div>
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>	
+			</figcaption>
+		</figure>
+	</div>
+
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/Moccachino.jpg">
+			</div> 
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Moccachino</a>
+					<div class="price-wrap mt-2">
+						<span class="price">25.000</span>
+					</div> 
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>	
+			</figcaption>
+		</figure>
+	</div> 
+
+	<div class="col-md-4">
+		<figure class="card card-product-grid">
+			<div class="img-wrap"> 
+				<img src="images/Redeye.jpg">
+			</div> 
+			<figcaption class="info-wrap">
+				<div class="fix-height">
+					<a href="#" class="title">Redeye</a>
+					<div class="price-wrap mt-2">
+						<span class="price">20.000</span>
+					</div> 
+				</div>
+				<a href="#" class="btn btn-block btn-secondary btncart">Add to cart </a>	
+			</figcaption>
+		</figure>
+	</div> 
+		
+</div> 
+
+
+<nav class="mt-4" aria-label="Page navigation sample">
+  <ul class="pagination">
+    <li class="page-item disabled"><a style="color: grey;" class="page-link" href="#">Previous</a></li>
+    <li class="page-item active"><a style=" background-color: grey;" class="page-link" href="#">1</a></li>
+    <li class="page-item"><a style="color: grey;" class="page-link" href="#">2</a></li>
+    <li class="page-item"><a style="color: grey;" class="page-link" href="#">3</a></li>
+    <li class="page-item"><a style="color: grey;" class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+	</main> 
+
+</div>
+</div> 
+</section>
+<script type="text/javascript">
+	let indikator = document.querySelector("#idkatr");
+	let tombolCart = document.querySelectorAll(".btncart");
+	let pay = document.querySelector("#cart");
+	var i = 1;
+	for ( let tc of tombolCart){
+		tc.addEventListener("click", function(){
+			indikator.innerHTML= i;
+			i++;
+		});
+	}
+
+	pay.addEventListener("click", function(e){
+  		e.preventDefault();
+  		location.href = "checkout.html";
+  	});
+</script>
+</body>
+</html>

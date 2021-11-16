@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/checkoutstyle.css">
+</head>
+<body>
+  <main class="page payment-page">
+    <section class="payment-form dark">
+      <div class="container">
+        <div class="block-heading">
+          <h2>Pembayaran</h2>
+          <p>Silahkan cek apabila ada kesalahan pembelian.</p>
+        </div>
+        <form>
+          <div class="products">
+            <h3 class="title">Checkout</h3>
+            <div class="item">
+              <span class="price">Rp 25000</span>
+              <p class="item-name">Product 1
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  				<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+  				<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+				</svg></p>
+              <p class="item-description">Masukkan deskripsi kopi di sini.</p>
+            </div>
+            <div class="item">
+              <span class="price">Rp 20000</span>
+              <p class="item-name">Product 2
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  				<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+  				<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+				</svg>
+			  </p>
+              <p class="item-description">Masukkan deskripsi kopi di sini.</p>
+            </div>
+            <div class="total">Total<span class="price">Rp 45000</span></div>
+          </div>
+          <div class="container">
+          	<div class="row">
+          		<div class="col mt-5 text-center">
+                <button type="button" id="paid" class="btn btn-primary" >Proceed</button>
+                </div>
+             </div>
+          </div>
+      </div>
+    </section>
+  </main>
+  <script type="text/javascript">
+  	let backhome = document.querySelector("#paid");
+  	backhome.addEventListener("click", function(e){
+  		e.preventDefault();
+  		location.href = "tempaterkenal.php";
+  	});
+  </script>
+</body>
+</html>

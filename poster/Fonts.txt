@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Print Clearly
+Author: Blue Vinyl Fonts
+Url: http://www.fontsquirrel.com/fonts/print-clearly
+
+Font: Bebas Kai
+Author: Dharma Type
+Url: https://www.fontsquirrel.com/fonts/bebas-kai
